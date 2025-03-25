@@ -72,9 +72,7 @@
         }, timeOut);
     }
 
-    function switchCamera() {
-        facingMode.value = facingMode.value === 'user' ? 'environment' : 'user'
-    }
+
 
     function clearPhotos() {
         photoList.value = []
